@@ -46,7 +46,7 @@ const Home = () => {
                     <Card.Body>
                       <div className="d-flex justify-content-between align-items-center">
                         <Card.Title className="m-0">{el.title}</Card.Title>
-                        <div className="d-flex gap-4 ">
+                        <div className="d-flex flex-column flex-sm-row gap-4 ">
                           <Card.Text className="m-0">{el.author}</Card.Text>
                           <Card.Text>{formattedDate}</Card.Text>
                         </div>
